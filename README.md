@@ -4,6 +4,18 @@ Facial recognition while using your PC or watching content
 > **Note:** This project is still in development, and there's more to be done. Currently, I am too busy to continue the work.
 > It is designed to run on windows, not via WSL due to capturing graphics card.
 
+- Don't make fun of my genius. Instead of manually applying labels or exif to each image for names this was just an easier process.
+- Make sure you edit which monitor it watches in the `screen_watcher.py` script.
+
+## How it works
+
+1. First it downloads the specified video from YouTube.
+2. Now it extracts the faces and for each face it adds exif specifying the title of the video and URL
+3. Preprocess is run to find landmarks for each face and a file face_encodings.json is created with a link to each face in the collection
+4. Finally the `screen_watcher` is run which will monitor well... your monitor and when a face appears that is in the database, will highlight it and give a name based on the information we have.
+
+- All faces are recognized, but only boxes are drawn for the ones that match a picture in our collection.
+
 ## Instructions
 
 1. **Extract Faces from YouTube Videos**
