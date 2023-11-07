@@ -16,6 +16,10 @@ Facial recognition while using your PC or watching content
 
 - All faces are recognized, but only boxes are drawn for the ones that match a picture in our collection.
 
+
+![Example](example_usage.gif)
+
+
 ## Instructions
 
 1. **Extract Faces from YouTube Videos**
