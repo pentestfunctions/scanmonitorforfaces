@@ -2,6 +2,7 @@
 Facial recognition while using your PC or watching content
 
 > **Note:** This project is still in development, and there's more to be done. Currently, I am too busy to continue the work.
+> It is designed to run on windows, not via WSL due to capturing graphics card.
 
 ## Instructions
 
